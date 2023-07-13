@@ -22,7 +22,7 @@ function Calculator() {
       <Button value="2" />
       <Button value="3" />
       <Button value="+" classextend="bg-orange-500" />
-      <Button value="0" classextend="col-span-2" />
+      <Button value="0" classextend="col-span-2 bg-slate-200 text-black" />
       <Button value="." />
       <Button value="=" classextend="bg-orange-500" />
     </div>
