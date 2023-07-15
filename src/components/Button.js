@@ -1,18 +1,21 @@
 import PropTypes from 'prop-types';
 
-function Button({ value, classextend }) {
+function Button({ value, classextend, handleClick }) {
   return (
-    <div
-      className={`border flex items-center justify-center border-white font-bold text-xl ${classextend} `}
+    <button
+      type="button"
+      className={`border flex items-center justify-center border-white font-bold text- rounded-md ${classextend} `}
+      onClick={handleClick}
     >
       {value}
-    </div>
+    </button>
   );
 }
 
 Button.propTypes = {
   value: PropTypes.string.isRequired,
   classextend: PropTypes.string,
+  handleClick: PropTypes.func.isRequired,
 };
 
 Button.defaultProps = {
