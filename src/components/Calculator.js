@@ -28,7 +28,7 @@ function Calculator() {
       <Button handleClick={(e) => makeCalculations(e)} value="7" />
       <Button handleClick={(e) => makeCalculations(e)} value="8" />
       <Button handleClick={(e) => makeCalculations(e)} value="9" />
-      <Button handleClick={(e) => makeCalculations(e)} value="×" classextend="bg-orange-500" />
+      <Button handleClick={(e) => makeCalculations(e)} value="x" classextend="bg-orange-500" />
       <Button handleClick={(e) => makeCalculations(e)} value="4" />
       <Button handleClick={(e) => makeCalculations(e)} value="5" />
       <Button handleClick={(e) => makeCalculations(e)} value="6" />
