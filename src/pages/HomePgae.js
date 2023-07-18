@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 
 function HomePgae() {
   return (
@@ -21,7 +21,7 @@ function HomePgae() {
         pretium nibh. Est velit egestas dui id ornare arcu odio. Odio
         pellentesque diam volutpat commodo sed egestas. Nisi porta lorem mollis
         aliquam. Mattis molestie a iaculis at erat pellentesque adipiscing
-        commodo. 
+        commodo.
       </p>
 
       <p className="mt-10">
@@ -41,7 +41,7 @@ function HomePgae() {
         pretium nibh. Est velit egestas dui id ornare arcu odio. Odio
         pellentesque diam volutpat commodo sed egestas. Nisi porta lorem mollis
         aliquam. Mattis molestie a iaculis at erat pellentesque adipiscing
-        commodo. 
+        commodo.
       </p>
 
       <p className="mt-10">
@@ -61,7 +61,7 @@ function HomePgae() {
         pretium nibh. Est velit egestas dui id ornare arcu odio. Odio
         pellentesque diam volutpat commodo sed egestas. Nisi porta lorem mollis
         aliquam. Mattis molestie a iaculis at erat pellentesque adipiscing
-        commodo. 
+        commodo.
       </p>
     </div>
   );

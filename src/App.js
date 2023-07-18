@@ -1,5 +1,7 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { CalculatorPage, Header, HomePgae, QuotesPage } from "./Routes";
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import {
+  CalculatorPage, Header, HomePgae, QuotesPage,
+} from './Routes';
 
 function App() {
   return (
