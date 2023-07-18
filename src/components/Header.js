@@ -4,8 +4,8 @@ import { Outlet, NavLink , Link} from "react-router-dom";
 function Header() {
   return (
     <div>
-      <header className="w-full px-3 py-2 flex flex-row justify-between bg-white shadow-md h-[1.5cm] items-center">
-        <Link to='/' className="font-extrabold text-3xl text-blue-800">
+      <header className="w-full sticky top-0  z-10 px-3 py-2 flex flex-row justify-between bg-white shadow-md h-[1.5cm] items-center">
+        <Link to='/' className="font-extrabold md:text-3xl text-blue-800">
           Math Magician
         </Link>
         <nav className="flex flex-row gap-3">
