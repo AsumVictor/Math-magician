@@ -19,7 +19,7 @@ function Calculator() {
   const { total, next, operation } = calculation;
 
   return (
-    <div className="w-[9cm] md:w-[12cm] h-[9cm] md:h-[12cm] border m-10 grid grid-cols-4 grid-rows-6">
+    <div className="w-[9cm] md:w-[12cm] h-[9cm] md:h-[12cm] border m-10 grid grid-cols-4 grid-rows-6 ">
       <Screen total={total} next={next} operation={operation} />
       <Button handleClick={(e) => makeCalculations(e)} value="AC" />
       <Button handleClick={(e) => makeCalculations(e)} value="+/-" />
