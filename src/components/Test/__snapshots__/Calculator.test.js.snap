@@ -1,0 +1,133 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Calculator renders correctly 1`] = `
+<div>
+  <div
+    class="w-[9cm] md:w-[12cm] h-[9cm] md:h-[12cm] border m-10 grid grid-cols-4 grid-rows-6 "
+  >
+    <div
+      class="col-span-4 bg-gray-700 px-2 flex justify-end items-center text-white"
+    >
+      <span />
+      <span />
+      <span>
+        0
+      </span>
+    </div>
+    <button
+      class="border flex items-center justify-center border-white font-bold text- rounded-md bg-slate-200 text-black "
+      type="button"
+    >
+      AC
+    </button>
+    <button
+      class="border flex items-center justify-center border-white font-bold text- rounded-md bg-slate-200 text-black "
+      type="button"
+    >
+      +/-
+    </button>
+    <button
+      class="border flex items-center justify-center border-white font-bold text- rounded-md bg-slate-200 text-black "
+      type="button"
+    >
+      %
+    </button>
+    <button
+      class="border flex items-center justify-center border-white font-bold text- rounded-md bg-orange-500 "
+      type="button"
+    >
+      ÷
+    </button>
+    <button
+      class="border flex items-center justify-center border-white font-bold text- rounded-md bg-slate-200 text-black "
+      type="button"
+    >
+      7
+    </button>
+    <button
+      class="border flex items-center justify-center border-white font-bold text- rounded-md bg-slate-200 text-black "
+      type="button"
+    >
+      8
+    </button>
+    <button
+      class="border flex items-center justify-center border-white font-bold text- rounded-md bg-slate-200 text-black "
+      type="button"
+    >
+      9
+    </button>
+    <button
+      class="border flex items-center justify-center border-white font-bold text- rounded-md bg-orange-500 "
+      type="button"
+    >
+      x
+    </button>
+    <button
+      class="border flex items-center justify-center border-white font-bold text- rounded-md bg-slate-200 text-black "
+      type="button"
+    >
+      4
+    </button>
+    <button
+      class="border flex items-center justify-center border-white font-bold text- rounded-md bg-slate-200 text-black "
+      type="button"
+    >
+      5
+    </button>
+    <button
+      class="border flex items-center justify-center border-white font-bold text- rounded-md bg-slate-200 text-black "
+      type="button"
+    >
+      6
+    </button>
+    <button
+      class="border flex items-center justify-center border-white font-bold text- rounded-md bg-orange-500 "
+      type="button"
+    >
+      -
+    </button>
+    <button
+      class="border flex items-center justify-center border-white font-bold text- rounded-md bg-slate-200 text-black "
+      type="button"
+    >
+      1
+    </button>
+    <button
+      class="border flex items-center justify-center border-white font-bold text- rounded-md bg-slate-200 text-black "
+      type="button"
+    >
+      2
+    </button>
+    <button
+      class="border flex items-center justify-center border-white font-bold text- rounded-md bg-slate-200 text-black "
+      type="button"
+    >
+      3
+    </button>
+    <button
+      class="border flex items-center justify-center border-white font-bold text- rounded-md bg-orange-500 "
+      type="button"
+    >
+      +
+    </button>
+    <button
+      class="border flex items-center justify-center border-white font-bold text- rounded-md col-span-2 bg-slate-200 text-black "
+      type="button"
+    >
+      0
+    </button>
+    <button
+      class="border flex items-center justify-center border-white font-bold text- rounded-md bg-slate-200 text-black "
+      type="button"
+    >
+      .
+    </button>
+    <button
+      class="border flex items-center justify-center border-white font-bold text- rounded-md bg-orange-500 "
+      type="button"
+    >
+      =
+    </button>
+  </div>
+</div>
+`;

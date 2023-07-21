@@ -1,5 +1,4 @@
 import { useState, useEffect } from 'react';
-import { nanoid } from 'nanoid';
 import Quote from './Quote';
 
 function Quotes() {
@@ -21,7 +20,7 @@ function Quotes() {
     content = (
       <>
         {quotes.map(({ quote, author }) => (
-          <Quote key={nanoid()} quote={quote} author={author} />
+          <Quote key={author} quote={quote} author={author} />
         ))}
       </>
     );
@@ -53,9 +52,7 @@ function Quotes() {
   }, []);
 
   return (
-    <div className="flex flex-col gap-5 overflow-y-auto h-full">
-      {content}
-    </div>
+    <div className="flex flex-col gap-5 overflow-y-auto h-full">{content}</div>
   );
 }
 
