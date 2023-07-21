@@ -4,19 +4,6 @@ import '@testing-library/jest-dom/extend-expect';
 import Screen from '../Screen';
 
 describe('Screen component', () => {
-  const findByTextContent = (container, text) => {
-    const elements = container.querySelectorAll('*');
-    elements.forEach((element) => {
-      if (element.textContent === text) {
-        return element;
-      }
-
-      return 0;
-    });
-
-    return null;
-  };
-
   it('should render without crashing', () => {
     const props = {
       next: '123',
