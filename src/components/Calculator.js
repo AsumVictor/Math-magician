@@ -4,11 +4,13 @@ import Button from './Button';
 import calculate from '../logic/Calculator';
 
 function Calculator() {
-  const [calculation, setCalculation] = useState({
+  const defaultCalculation = {
     total: null,
     next: null,
     operation: null,
-  });
+  };
+
+  const [calculation, setCalculation] = useState(defaultCalculation);
 
   const makeCalculations = (e) => {
     const buttonName = e.currentTarget.textContent;
