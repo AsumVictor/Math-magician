@@ -1,5 +1,5 @@
-import operate from './Operate';
 import Big from 'big.js';
+import operate from './Operate';
 
 describe('operate', () => {
   test('should add two numbers correctly', () => {

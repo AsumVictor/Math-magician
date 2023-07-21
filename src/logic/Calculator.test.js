@@ -1,4 +1,4 @@
-import calculate from './Calculator.js';
+import calculate from './Calculator';
 
 describe('calculate function', () => {
   it('should handle AC button', () => {
