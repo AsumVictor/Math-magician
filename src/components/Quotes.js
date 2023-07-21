@@ -1,6 +1,5 @@
-import { useState, useEffect } from 'react';
-import { nanoid } from 'nanoid';
-import Quote from './Quote';
+import { useState, useEffect } from "react";
+import Quote from "./Quote";
 
 function Quotes() {
   const [loading, setLoading] = useState(false);
@@ -10,18 +9,18 @@ function Quotes() {
 
   // show loading
   if (loading) {
-    content = 'Loading quotes';
+    content = "Loading quotes";
   }
 
   if (error) {
-    content = 'Opps error occured fetch quotes! Try again ';
+    content = "Opps error occured fetch quotes! Try again ";
   }
 
   if (quotes) {
     content = (
       <>
-        {quotes.map(({ quote, author }) => (
-          <Quote key={nanoid()} quote={quote} author={author} />
+        {quotes.map(({ quote, author }, index) => (
+          <Quote key={index} quote={quote} author={author} />
         ))}
       </>
     );
@@ -32,14 +31,14 @@ function Quotes() {
       setLoading(true);
       try {
         const res = await fetch(
-          'https://api.api-ninjas.com/v1/quotes?category=knowledge&limit=12',
+          "https://api.api-ninjas.com/v1/quotes?category=knowledge&limit=12",
           {
-            method: 'GET',
+            method: "GET",
             headers: {
-              'Content-Type': 'application/json',
-              'X-Api-Key': 'GD5MpIQ12ItTGCU9dxpvEg==zIB7Q8P5FEkpl5yh',
+              "Content-Type": "application/json",
+              "X-Api-Key": "GD5MpIQ12ItTGCU9dxpvEg==zIB7Q8P5FEkpl5yh",
             },
-          },
+          }
         );
         setLoading(false);
         const data = await res.json();
@@ -53,9 +52,7 @@ function Quotes() {
   }, []);
 
   return (
-    <div className="flex flex-col gap-5 overflow-y-auto h-full">
-      {content}
-    </div>
+    <div className="flex flex-col gap-5 overflow-y-auto h-full">{content}</div>
   );
 }
 
