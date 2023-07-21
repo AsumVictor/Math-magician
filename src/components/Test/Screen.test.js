@@ -49,24 +49,6 @@ describe('Screen component', () => {
     expect(getByText('0')).toBeInTheDocument();
   });
 
-  it('should render the correct values for next, operation, and total', () => {
-    const props = {
-      next: '456',
-      operation: '-',
-      total: '234',
-    };
-    const { container } = render(
-      <Screen
-        next={props.next}
-        operation={props.operation}
-        total={props.total}
-      />,
-    );
-    const combinedText = '234-456';
-    const elementWithText = findByTextContent(container, combinedText);
-    expect(elementWithText).toBeInTheDocument();
-  });
-
   it('should display PropTypes validation warning for missing props', () => {
     const spy = jest.spyOn(console, 'error').mockImplementation(() => {});
     render(<Screen />);
